@@ -1,0 +1,263 @@
+[Event "Vienna Gambit (Accepted & Declined): The Gambit Accepted (3... exf4)"]
+[Date "2026.09.27"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C29"]
+[Opening "Vienna Game: Vienna Gambit"]
+[StudyName "Vienna Gambit (Accepted & Declined)"]
+[ChapterName "The Gambit Accepted (3... exf4)"]
+[ChapterURL "https://lichess.org/study/UdpNZx2z/jluOh413"]
+[Annotator "https://lichess.org/@/dangtrungan"]
+[UTCDate "2026.09.27"]
+[UTCTime "01:28:14"]
+
+{ Welcome to the first study of the Vienna!
+
+This study will introduce the so-called Vienna Gambit and answer the question: after
+1.e4 e5
+2.Nc3 Nf6
+3.f4
+What if Black simply takes our f-pawn?
+
+White gets a fun and easy game! }
+1. e4 e5 { Black replies with the mirror image 1...e5, the most popular reply at all levels.
+We develop our queenside knight.
+This is slightly different than 2.Nf3, which is standard development. } 2. Nc3 Nf6 { In this chapter, Black replies with 2...Nf6, allowing us to push 3.f4 next - the Vienna Gambit!
+We offer Black a capture of our f-pawn in order to push 4.e5 and attack the enemy knight... } 3. f4 exf4 { You will face this a shocking amount of times.
+It simply lands Black in a dead lost position on move 3!
+This is our plan:
+4.e5
+5.Nf3
+6.d4
+Finally, aim to capture the pawn back. } { [%csl Gf4][%cal Ge4e5,Gd2d4,Gg1f3] } 4. e5 Ng8 { Black decides to retreat the knight - this is the only safe square.
+Black is now threatening Qh4+.
+You MUST play Nf3 before you push d4, as this prevents Black's Qh4+. } { [%csl Re1,Rh4][%cal Rd8h4] } (4... Qe7 { Black plays 4...Qe7 and pins the e-pawn.
+We continue by unpinning the pawn with 5.Qe2 - mirroring Black's move.
+Now, Black has no choice - the knight must depart. } { [%csl Re5] } 5. Qe2 Ng8 { Black's knight retreats. Black is now threatening Qh4+.
+We now develop and cover the check. } { [%csl Rh4][%cal Re7h4] } 6. Nf3 d6 { Black plays 6...d6 to develop the light-squared Bishop.
+Let's play the knockout punch, punishing the queen for standing in front of the King. } { [%csl Rc7,Re7] } (6... Nc6 { Black might opt for 6...Nc6. } 7. d4 { We continue with 7.d4 and the threat of Nd5 is borderline unstoppable.
+White has a winning advantage. } { [%csl Gd5][%cal Gc3d5] }) 7. Nd5 Qd7 { Black's queen slides to safety, but... } 8. exd6+ { We chop down Black's position and win the game. } { [%csl Rc7,Re8][%cal Gd6c7] }) 5. Nf3 d6 { Black undermines your pawn, and prepares to develop his light-squared bishop.
+We continue with 6.d4.
+If Black captures in the center afterwards, our queen will become active. } (5... Nc6 { Black can also continue with 5...Nc6, a more flexible move.
+We continue with d4 - expanding in the center and supporting the e-pawn. } { [%csl Re5] } 6. d4 d6 { Black undermines your pawn, and prepares to develop their light-squared Bishop.
+We capture Black's f4-pawn. } { [%csl Re5,Gc8] } 7. Bxf4 dxe5 { Black captures our e-pawn. } 8. Qe2 { We continue with 8.Qe2.
+We know this position. 8...Nxd4 9.Nxd4 and we will play Bxe5. } { [%csl Re5,Re8][%cal Gc6d4,Gf3d4,Gf4e5] }) 6. d4 dxe5 { Black captures the e-pawn.
+We continue with 7.Qe2 - this is very important!
+Now Black is frozen, you avoid a trade of queens, and you will recapture both center pawns before castling - preferably queenside. } { [%csl Re5] } 7. Qe2 Nc6 { 7...Nc6 is the most popular response at this point, but Black can do other things (we will review briefly in the video).
+We take on f4 with the bishop. This is the important move, taking advantage of the pin. We also set up traps. } { [%csl Rd4,Rf4] } 8. Bxf4 Nxd4 { Black takes, threatening your queen.
+We trade knights. } { [%cal Rd4e2] } 9. Nxd4 Qxd4 { Black recaptures on d4. } 10. Bxe5 { Success!
+We capture Black's e-pawn and Black is going to lose everything. } { [%csl Gd4,Gg7,Re8][%cal Re5g7,Re5d4] } *
+
+
+[Event "Vienna Gambit (Accepted & Declined): Declining the Gambit (3...Nc6)"]
+[Date "2026.09.27"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C29"]
+[Opening "Vienna Game: Vienna Gambit"]
+[StudyName "Vienna Gambit (Accepted & Declined)"]
+[ChapterName "Declining the Gambit (3...Nc6)"]
+[ChapterURL "https://lichess.org/study/UdpNZx2z/kDKnPEn4"]
+[Annotator "https://lichess.org/@/dangtrungan"]
+[UTCDate "2026.09.27"]
+[UTCTime "01:36:37"]
+
+{ In this study, we're continuing our analysis of the Vienna Gambit and taking a look at how to respond if Black declines our gambit with 3...Nc6. }
+1. e4 e5 { Black replies with the mirror image 1...e5, the most popular reply at all levels.
+We develop our queenside knight. } 2. Nc3 Nf6 { In this chapter, Black replies with 2...Nf6, allowing us to push 3.f4 next - the Vienna Gambit! } 3. f4 Nc6 { Believe it or not, defending the Vienna Gambit with 3...Nc6 is one of Black's most popular responses.
+But, fortunately for us, this puts Black in a losing position!
+You must take after Black plays 3...Nc6. } { [%csl Re5] } 4. fxe5 Nxe5 { Black recaptures on e5.
+You have to push d4 to target the knights. } { [%csl Re5,Rf6] } 5. d4 Ng6 { This is 1 of 2 retreats available for Black.
+Of the 2, this one is the better option for Black.
+We push 6.e5 and attack Black's knight!
+Black must retreat with ...Ng8 now. } (5... Nc6 { Of course, Black can go back this way too, but it's not quite effective.
+We push 6.e5, advancing and attacking the knight. } { [%csl Rf6] } 6. e5 Ng8 { Black retreats the knight to g8.
+We again cover Qh4+ and defend the center. 7.Nf3 Bb4 8.d5 is good for us. } { [%csl Rh4][%cal Rd8h4] } (6... Qe7 { A tricky response for Black would be to pin our e-pawn with 6... Qe7.
+If we mirror the move with 7. Qe2 then Black can respond with 7... Nxd4. } { [%csl Re5,Re1] } 7. Be2 { Instead, we should simply respond with 7.Be2.
+This unpins our e-pawn, and keeps our queen watching our d-pawn.
+A reasonable move after this would be something like Nf3, defending the center. } { [%csl Gd4][%cal Gg1f3,Ge5f6] }) 7. Nf3 d6 { Black undermines the e-pawn, and prepares to develop the light-squared bishop.
+We continue by pinning Black's knight with 8.Bb5. } 8. Bb5 dxe5 { Black captures the e-pawn.
+We recapture with the knight, pressuring the c6-knight. } { [%csl Rc6] } 9. Nxe5 Bd7 { Black supports the c6-knight with 9...Bd7.
+We will capture the bishop with 10.Nxd7. } 10. Nxd7 Qxd7 { Black recaptures on d7 and is ready to castle queenside.
+Let's make sure they don't get the time. } { [%cal Ge8c8] } 11. d5 { We continue with 11.d5, creating tactics in our favor.
+11...Qe7+ 12.Qe2 a6 13.dxc6 and White comes out on top because we can take on b7 at the end of many variations. } { [%csl Rb7][%cal Gd5c6,Ge1g1,Gc6b7] }) 6. e5 Ng8 { Black retreats the knight to g8.
+Nf3 is a flexible developing move and it prevents an annoying Qh4+. } { [%csl Rh4][%cal Rd8h4] } 7. Nf3 d6 { 7...d6 is Black's most direct attempt at fighting back against the center.
+We don't need to be afraid - we develop the light-squared bishop and target Black's king. } { [%csl Re5] } 8. Bc4 dxe5 { Black captures the e-pawn.
+We simply castle.
+We now have the entire kingside developed, and we're ready to strike. } { [%csl Rf7] } 9. O-O exd4 { Black is greedy and captures the d-pawn. } { [%csl Rf7] } 10. Ng5 { We continue with 10.Ng5.
+There are unstoppable intentions on f7. White is completely winning! } { [%csl Gf7][%cal Gg5f7] } *
+
+
+[Event "Vienna Gambit (Accepted & Declined): Black Plays 3...d6"]
+[Date "2026.09.27"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C29"]
+[Opening "Vienna Game: Vienna Gambit"]
+[StudyName "Vienna Gambit (Accepted & Declined)"]
+[ChapterName "Black Plays 3...d6"]
+[ChapterURL "https://lichess.org/study/UdpNZx2z/aout7KXZ"]
+[Annotator "https://lichess.org/@/dangtrungan"]
+[UTCDate "2026.09.27"]
+[UTCTime "01:41:44"]
+
+{ In this study, we're continuing our analysis of the Vienna Gambit and taking a look at how to respond if Black declines our gambit with 3...d6. }
+1. e4 e5 { Black replies with the mirror image 1...e5, the most popular reply at all levels.
+We develop our queenside knight. } 2. Nc3 Nf6 { In this chapter, Black replies with 2...Nf6, allowing us to push 3.f4 next - the Vienna Gambit! } 3. f4 d6 { Declining with 3...d6 is extremely common.
+We will simply develop our knight. } { [%csl Re5] } 4. Nf3 Nc6 { Black develops with 4...Nc6, supporting the center - this is most common.
+We will pin the c6 knight to make the e-pawn a target. } { [%csl Rc6] } (4... exf4 { Black captures on f4, but there is nothing to worry about here.
+We continue with 5.d4 - grabbing central space and opening up an attack on Black's f4-pawn. } { [%csl Rf4] } 5. d4 Qe7 { Black plays 5...Qe7 - counterattacking our center.
+Don't rush, respect the opponent's threats. } { [%csl Re4] } (5... Nh5 { Black can also try to defend the pawn with 5...Nh5.
+We respond 6.Nd5 - attacking the f4 pawn once more. } { [%csl Gf4] } 6. Nd5 g5 { Black defends the f-pawn with 6...g5, but this is a mistake!
+We sacrifice the knight on g5! } { [%csl Gf4] } 7. Nxg5 Qxg5 { Black captures on g5.
+We can capture Black's knight on h5, temporarily sacrificing our queen! } { [%csl Rf6,Rh5][%cal Gd5f6] } 8. Qxh5 Qxh5 { Black recaptures on h5. } { [%csl Re8,Rh5] } 9. Nf6+ { We continue with 9.Nf6+, forking Black's king and queen!
+Black's king is now forced to move. Soon we will capture the queen and win the f4-pawn.
+Black's position is terrible and White has a winning advantage. } { [%csl Gh5,Ge8,Gf4][%cal Gf6e8,Gf6h5] }) 6. Bd3 { We defend the e-pawn with 6.Bd3.
+White is better, and we will simply continue by capturing on f4. } { [%csl Ge4,Rf4][%cal Gc1f4] }) (4... Bg4 { Black can also pin our knight with 4...Bg4 - this is actually the second most common move.
+We immediately attack the bishop with 5.h3. } { [%csl Rf3] } 5. h3 Bxf3 { Black captures on f3.
+We recapture with the queen. } (5... Bh5 { If Black retreats the bishop to h5, we can trap it with g4 + f5. } { [%cal Gg2g4,Gf4f5] }) 6. Qxf3 Nc6 { Black develops with 6...Nc6, supporting the center.
+We continue with 7.Bb5. } { [%csl Ge5] } (6... exf4 { If Black takes on f4, we can play d4!
+Bxf4 will follow, and White has a position with total central control. 0-0 will also add a rook to the semi-open f-file. } { [%csl Gd4][%cal Gd2d4,Gf1c4,Ge1g1] }) (6... Be7 { If Black opts to develop with 6...Be7, we can continue developing with Bc4 + O-O + d3. } { [%csl Gd3,Gc4][%cal Gd2d3,Gf1c4,Ge1g1] }) 7. Bb5 { Our main objectives are to undermine e5. We will take on c6 and double the pawns, and then open up the f-file. } { [%csl Ge5][%cal Rf4e5,Rb5c6] }) 5. Bb5 Bd7 { Black unpins the knight with 5...Bd7.
+We continue with 6.d3.
+Now we are ready to capture on c6, followed by e5. } (5... Bg4 { Sometimes, this pin occurs.
+We should attack the bishop with 6.h3. } { [%csl Rf3] } 6. h3 Bxf3 { Black captures on f3.
+We recapture with the queen. } 7. Qxf3 Be7 { Black develops with 7...Be7 and prepares O-O.
+I recommend a very simple transformation of the position.
+We capture on c6 - giving up the bishop pair, but ruining Black's pawn structure. } 8. Bxc6+ bxc6 { Black recaptures on c6.
+We capture on e5. } { [%csl Rc7,Rc6] } 9. fxe5 dxe5 { Black recaptures and now their pawn structure is in ruins.
+We shall castle, push d3, and have a calm advantage. } { [%csl Rc7,Rc6,Re5] } 10. O-O O-O { Black also castles their king. } 11. d3 { We continue 11.d3, with a pleasant position.
+We will develop the dark-squared bishop and attempt to target Black's weaknesses.
+If Black activates their rook with ...Rb8, don't play b3!
+Instead, we can support the pawn with Nd1 or Rb1. } { [%csl Ge3,Gg5][%cal Gc1e3,Ge3g5] }) 6. d3 exf4 { Black releases the tension and captures on f4. } (6... Nd4 { Black also has the option to jump the knight onto d4. The following line is pretty forced.
+We capture the bishop on d7 with check. } { [%csl Rb5,Rf3] } 7. Bxd7+ Qxd7 { Black recaptures with the queen.
+We capture the knight on d4. } 8. Nxd4 exd4 { Black recaptures on d4 and attacks our knight.
+We retreat our knight to e2 and attack the d-pawn. } { [%csl Rc3] } 9. Ne2 c5 { Black defends the pawn with 9...c5. } { [%csl Gd4] } 10. O-O { We castle our king.
+We have a pretty comfortable position. If Black castles kingside some of our ideas include Ng3, Bd2 and f5.
+If Black castles queenside, some of our attacking ideas include a4 + b4 + Rb1, but we can also attack Black's center with c3. } { [%csl Gd2,Gg3,Gf5,Re7,Rg8][%cal Gf4f5,Ge2g3,Gc1d2,Rf8e7,Re8g8] }) 7. Bxf4 { We recapture with the bishop.
+Our position is very comfortable and we will continue with Qd2 or Qe2, followed by castling kingside or queenside. } { [%csl Gd2,Ge2,Gc1,Gg1][%cal Gd1d2,Gd1e2,Ge1c1,Ge1g1] } *
+
+
+[Event "Vienna Gambit (Accepted & Declined): Black Plays 2...d6"]
+[Date "2026.09.27"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C25"]
+[Opening "Vienna Game"]
+[StudyName "Vienna Gambit (Accepted & Declined)"]
+[ChapterName "Black Plays 2...d6"]
+[ChapterURL "https://lichess.org/study/UdpNZx2z/ZztIBysl"]
+[Annotator "https://lichess.org/@/dangtrungan"]
+[UTCDate "2026.09.27"]
+[UTCTime "01:51:37"]
+
+{ We have to study what can happen if Black deviates from theory on move 2!
+
+We will begin with the move 2...d6, a slow pawn move that could be played. }
+1. e4 e5 { Black will mirror us.
+We'll play Nc3, starting up our Vienna.
+And now this is where Black will deviate. 2...Bc5, Bb4 or d6!
+As 2...d6 is our subject, we'll see that in this study. } 2. Nc3 d6 { This is definitely a passive setup, but it's completely possible.
+We develop the bishop first, before going for the d3/f4 setup. } 3. Bc4 Nf6 { This is the most popular move. Black develops a knight.
+4.d3 protects the e4 pawn and opens up the dark-squared bishop.
+5.f4 will be our next move. } { [%csl Ge4,Gc1] } (3... c6 { For some reason, this move is the second most popular on the lichess player database.
+d3 and f4 is our plan. Without a knight on c6, Black is less equipped to deal with pressure on e5. } 4. d3 Nf6 { The knight is brought out to support d5.
+We push. } { [%csl Re5][%cal Gd6d5] } (4... b5 { If Black goes for b5 ideas, we bring the bishop backwards. } { [%csl Rc4] } 5. Bb3 a5 { And if they threaten to trap your bishop... } { [%cal Ra5a4] } 6. a4 { Just don't let that happen!
+Our idea is to play f4 and Nf3. If 6...b4 7.Nce2 is solid for White. } { [%cal Gb5b4,Gc3e2,Gf2f4,Gg1f3] }) 5. f4 exf4 { Black resolves the tension before pushing d5.
+We recapture. } { [%csl Rf4] } 6. Bxf4 d5 { ...d5 is achieved, but we can simply trade. } { [%csl Re4,Rc4] } 7. exd5 cxd5 { Black takes.
+Let's bring the bishop to b3. } { [%csl Rc4] } 8. Bb3 d4 { And if d4, we first insert a check. } { [%csl Rc3,Re8] } 9. Qe2+ Be7 { And once the bishop blocks... } 10. Ne4 { We can get our knight out of danger and castle afterwards. } { [%cal Gg1f3,Ge1g1] }) (3... f5 { Some players are crazy like this!
+They go for ...f5 to undermine the center.
+Let's just take. Did Black really think this through? } { [%csl Re4] } 4. exf5 Bxf5 { Black here usually recaptures.
+But now we have a plan: Nf3, 0-0 and d4! } 5. Nf3 Nf6 { Thus after Black develops, we simply continue with our plan of 0-0. } 6. O-O Nc6 { Black develops the knight, and so here comes d4!
+This is actually very strong: if massive exchanges occur on e5, Black would have an isolated pawn! } { [%csl Ge5][%cal Rd4e5] } 7. d4 exd4 { Just to exemplify how badly things can go, we can give a check here. } { [%csl Re8] } 8. Re1+ Be7 { If the bishop blocks, Nd5 adds an attacker... } { [%csl Re7] } 9. Nd5 Nxd5 { Black is compelled to take, and logically we recapture. } 10. Bxd5 Kf8 { Black is advised to break the pin because Bg5 was coming!
+Let's remove d4's defender. } { [%csl Rc6,Rd4] } 11. Bxc6 bxc6 { And after Black takes... } 12. Nxd4 { The knight jumps into the center of the board! White is winning. } { [%csl Rc6,Rf5][%cal Gd4c6] }) 4. d3 Be7 { Black usually continues with normal development.
+Let's play f4! } { [%csl Re5] } 5. f4 exf4 { It's not unusual for Black to take.
+We just recapture, that's why our bishop is there! } { [%csl Rf4] } (5... O-O { Sometimes, Black just castles.
+Let's add pressure on e5 with our knight. } { [%csl Re5] } 6. Nf3 Nc6 { Black defends.
+And here we can go f5! } { [%csl Ge5] } 7. f5 Na5 { Black usually goes for the bishop, as they should.
+If they don't do this, feel free to preserve your bishop with a3 ideas.
+And here I suggest we develop the other bishop. } { [%csl Rc4] } 8. Bg5 Nxc4 { The bishop is taken... } 9. dxc4 { We recapture. We're going to bring our queen up and castle queenside to attack on the kingside. } { [%cal Gd1d3,Ge1c1] }) 6. Bxf4 O-O { Black castles.
+And now we continue developing our pieces, getting ready to castle. } 7. Nf3 Bg4 { If Black goes for this very popular move, just kick them out with h3. If Bxf3, Qxf3, and you have the bishop pair. } { [%csl Rf3] } 8. h3 Bh5 { The bishop goes back, so we attack it once more. } { [%csl Rh5] } 9. g4 Bg6 { It goes back.
+We now develop the queen. } 10. Qd2 { Now, in this particular position, 0-0-0 is more logical! The attack has been set up on the kingside! } { [%cal Ge1c1] } *
+
+
+[Event "Vienna Gambit (Accepted & Declined): Move 2 Sidelines"]
+[Date "2026.09.27"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C25"]
+[Opening "Vienna Game: Anderssen Defense"]
+[StudyName "Vienna Gambit (Accepted & Declined)"]
+[ChapterName "Move 2 Sidelines"]
+[ChapterURL "https://lichess.org/study/UdpNZx2z/NfbLkJdx"]
+[Annotator "https://lichess.org/@/dangtrungan"]
+[UTCDate "2026.09.27"]
+[UTCTime "01:59:55"]
+
+{ We will now see 2...Bc5 and 2...Bb4, the bishop moves, as early side lines!
+
+We can still play in a Vienna Style and get a solid position. }
+1. e4 e5 { Black will mirror us.
+We'll play Nc3, starting up our Vienna.
+And now this is where Black will deviate. 2...Bc5, Bb4 or like in the last study, d6! } 2. Nc3 Bc5 { Black can choose to develop the bishop first, without committing the knight yet.
+Here I suggest we go for the immediate f4.
+If Black takes, you'll notice there's no knight on f6 to harass with e5. } { [%csl Re5] } (2... Bb4 { Black could develop their bishop to b4.
+An idea could be to trade off the bishop before playing d6 and going for a dark square color complex.
+Let's just expand in the center and play 3.d4! } { [%csl Rc3,Re5] } 3. d4 Bxc3+ { Taking is very natural for Black.
+We can just recapture. } (3... exd4 { Black could also just take in the center right away, they often do this.
+We recapture, forking bishop and pawn. } { [%csl Rb4,Rg7] } 4. Qxd4 Bxc3+ { That's why many players just take.
+We recapture on c3. } 5. Qxc3 Nf6 { And again, we have a pawn in the center and Black has none.
+We can just develop our bishop to castle queenside soon.
+The knight can't take on e4 because we would just take on g7. } { [%csl Re4,Rg7] } 6. Be3 Qe7 { So maybe now the queen can be developed to attack e4.
+We can defend with f3. Black's best plan would then be ...Nc6 + ...Qb4 for a queen trade. } { [%csl Ge4] } 7. f3 Nc6 { So suppose they play Nc6 which is a developing move... } 8. O-O-O { Just castle queenside, and you'll stand much better.
+Even if Black does find the idea of trading queens, we can just go ahead and trade and develop our bishops which control many squares. }) (3... d6 { ...d6, defending e5 now that the bishop is out of the pawn chain, is also natural.
+We will simply trade pawns on e5. } { [%csl Ge5] } 4. dxe5 dxe5 { Black recaptures.
+Now we trade queens and make Black lose castling rights. } { [%csl Rd8,Rd1] } (4... Bxc3+ { If Black chooses to interject this move, we can just recapture. Now we have the bishop pair. } { [%csl Re1] } 5. bxc3 dxe5 { Black takes in the center.
+We trade queens. } { [%csl Rd8,Rd1] } 6. Qxd8+ Kxd8 { Black recaptures.
+We play Bc4. Things can go wrong for Black quickly. } { [%csl Rf7] } 7. Bc4 f6 { They can defend, but our bishops are coming to life.
+This is the bishop pair advantage!
+We open up lines with f4. } { [%csl Re5] } 8. f4 exf4 { If they take, sure they have a better structure. } { [%csl Rf4] } 9. Bxf4 { But our piece activity is just insane. White is much better.
+We'll play 0-0-0+, Nf3, and our idea will be to get the e5-pawn push to get rid of our isolated e-pawn.
+If Black ever plays ...Bg4, h3 will force it off the diagonal. } { [%csl Rc7,Rd8][%cal Gg1f3,Ge1c1] }) 5. Qxd8+ Kxd8 { They recapture.
+We defend our knight. } { [%csl Gc3] } 6. Bd2 Nf6 { Black adds pressure on e4.
+But we can castle and defend e4 indirectly. } { [%csl Re4,Rd8] } 7. O-O-O Ke7 { The king gets out of the way.
+And now we defend e4 with our rook. } { [%csl Ge4] } 8. Re1 Rd8 { If the black rook enters the open d-file, we can actually get the bishop out of the diagonal starting with a3. } { [%csl Rb4] } 9. a3 Bd6 { And once they move up... } 10. f4 { f4 is quite strong, and puts pressure on the Black position!
+If 10...exf4, 11.e5! We've got sound developing moves like Nf3 and Bc4 coming. } { [%cal Gf1c4,Gg1f3,Re4e5,Ge5f4] }) (3... Nc6 { The simple 3...Nc6 is also not optimal.
+We can just take in the center.
+Now if Black throws in Bxc3+, we'll just have the bishop pair in an open position. } { [%csl Rd4] } 4. dxe5 Nxe5 { The most popular move is recapturing.
+So now we can fork both pieces. } { [%csl Re5,Rb4] } 5. Qd4 Bxc3+ { And now after Black captures, we recapture with the queen, with pressure on the knight. } { [%csl Rc3] } 6. Qxc3 d6 { And after these very natural moves, White has an advantage.
+We can just develop and attack e5. } 7. Nf3 Nxf3+ { And let's say Black chooses the very natural trade here... } 8. gxf3 { Who's got the stronger center and the better prospect for their pieces?
+Certainly White.
+We have the bishop pair advantage and pressure on the g7 and c7 pawns. } { [%csl Gf3,Ge4,Rg7,Rc7][%cal Gh1g1] }) 4. bxc3 exd4 { Now Black takes in the center once again.
+But this just leaves us with a strong center! } 5. cxd4 d6 { d6 comes a little too late now, after Black has improved our position with all those bad trades.
+We can just develop normally and stand much better. } { [%csl Gd4,Ge4] } 6. Bd3 Ne7 { For example, Black develops, and we develop our knight, getting ready to castle. } 7. Ne2 O-O { Black castles... } 8. O-O { And so do we.
+Black needs counterplay with c5 fast, in which case we'll just go c3.
+Our center is really strong. } { [%cal Gc2c3,Gc7c5] }) 3. f4 exf4 { So if Black takes, I advise you to develop the knight. } (3... d6 { Black could choose to defend the pawn.
+We develop the knight, attacking e5. } { [%csl Ge5] } 4. Nf3 Nc6 { Black responds by defending with the knight.
+Let's just go for the bishop with Na4. } { [%csl Ge5] } (4... Nf6 { 4...Nf6 is also possible.
+We'll just follow our standard Vienna strategy: Bc4 and d3. } 5. Bc4 O-O { Black castles.
+And d3 opens up our c1 bishop and connects our pawns. } { [%csl Gc1] } 6. d3 Bg4 { 6...Bg4 is the most popular move.
+Let's now try to achieve castling.
+To do that, we'll have to eliminate Black's dark-squared bishop with Na4. } { [%csl Rc5,Rf3] } (6... Nc6 { 6...Nc6 is a close second in terms of popularity.
+I suggest we prioritize kingside play with f5.
+Bg5 is a strong idea. } 7. f5 Nd4 { Black's best move is ...Nd4.
+We should put our knight on d5. } 8. Nd5 Nxd5 { If Black takes, we've got to keep the integrity of our structure by recapturing with the bishop. } 9. Bxd5 c6 { Black usually pushes the pawn to dislodge our bishop... } 10. Bb3 { In which case we should just retreat.
+In case of ...a5, we've got Nxd4 and a4, followed by Qf3 to develop our queen. } { [%cal Ga2a4,Ga7a5,Gf3d4] }) (6... Ng4 { Probably the scariest-looking move is 6...Ng4.
+We should just get out of the fork because Black's minor piece expedition doesn't achieve much.
+We can play Qe2 and even if we lose castling rights, Black will have to waste too much time. } { [%cal Rg4f2] } 7. Qe2 Bf2+ { Check!
+But we can just come into f1 and Black is forced to move the bishop again. } { [%csl Rg4][%cal Rh2h3] } 8. Kf1 Bb6 { ...Bb6 is the most natural move because h3 was a threat.
+But after 9.f5, White is much better.
+It's hard to suggest a move for Black. } 9. f5 Nc6 { If 9...Nc6, 10.Bg5 is also great for White.
+We will play Bg5 because Black has a problem on the kingside. They lack defenders. } 10. Bg5 Nd4 { But if this happens... } 11. Qd2 { You can keep all the threats alive by moving the queen away.
+White has a winning position. } { [%csl Gg5] }) 7. Na4 Bb6 { Bringing the bishop to b6 is the most popular move.
+Let's just take to remove Black's influence on the diagonal. } { [%csl Rb6] } 8. Nxb6 axb6 { Black captures towards the center. } 9. O-O { And we achieve 0-0.
+We'll go c3 and Bxf4 if Black takes on f4. } { [%csl Gf4][%cal Gc2c3,Gc1f4] }) 5. Na4 Bb6 { The bishop goes back.
+Now we get the bishop pair. } 6. Nxb6 axb6 { Black recaptures.
+We pin the knight, thus increasing pressure on e5. } 7. Bb5 Bd7 { Black breaks the pin and now defends the knight.
+If we capture on c6, they'll recapture with the bishop and they'll be attacking e4.
+That's why we should defend e4 here. } { [%csl Gc6] } 8. d3 Nge7 { If Black just develops their knight... } 9. f5 { We can push with f5 and Black should expect an attack from us on the kingside! } { [%cal Ge1g1] }) 4. Nf3 d6 { Passive continuations, which are popular, can be taken advantage of..
+We can attack the bishop and open up an attack on the pawn. } { [%csl Rc5,Rf4] } 5. d4 Bb6 { The bishop goes back.
+And we recapture our pawn and enjoy of greater central space. } 6. Bxf4 Bg4 { Many players like to develop and pin the knight to pressure d4.
+But we can pressure Black's bishop off the diagonal.
+What's the point? The point is that if Black goes for the variation where they win the d4 pawn, they'll be too down in development. } 7. h3 Bxf3 { Black takes, and we recapture. } 8. Qxf3 Bxd4 { Black wins a pawn! } 9. O-O-O { And we castle queenside, enjoying a strong lead in development and threatening e5 to open up the position! } { [%csl Rd4][%cal Ge4e5] } *
+
+
