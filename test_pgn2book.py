@@ -43,6 +43,8 @@ def test_study():
     assert all("[%" not in f.text for f in story if hasattr(f, "text"))
     assert isinstance(story[-1], book.Board) and story[-1].note.text == "after 10. Bxe5"
     assert sum(isinstance(f, book.Board) for f in story) == 1
+    assert story[0].spaceBefore == book.VARIATION_GAP, "a variation opens a new line"
+    assert story[-1].spaceBefore == book.FIGURE_SPACE, "a diagram detaches from the text above"
 
 
 if __name__ == "__main__":

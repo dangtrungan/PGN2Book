@@ -39,6 +39,7 @@ RIGHT = MARGIN + 2 * COLUMN + GUTTER
 BODY_SIZE, BODY_LEAD = 13.74, 18.32
 HEAD_SIZE, CAPTION_SIZE = 12.19, 12.22
 HEAD_Y, FOLIO_Y = 778.0, 51.3
+FIGURE_SPACE, VARIATION_GAP = 12.0, 18.32     # a diagram breathes; a variation opens a new line
 
 # ------------------------------------------------------------------ figures
 SQUARE, COORD = 26.0, 8.0
@@ -78,6 +79,7 @@ class Board(Flowable):
         super().__init__()
         self.position = position
         self.note = Paragraph(caption, CAPTION)
+        self.spaceBefore = FIGURE_SPACE
 
     def wrap(self, availWidth, availHeight):
         self.w = availWidth
@@ -175,6 +177,7 @@ def block(moves):
         out.append(Paragraph(" ".join(run), MOVES))
     last = moves[-1]
     out.append(Board(last.board(), "after " + label(last, True)))
+    out[0].spaceBefore = VARIATION_GAP          # every variation opens a new line
     return out
 
 
