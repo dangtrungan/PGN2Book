@@ -9,6 +9,9 @@ page, set in two 245pt columns of EB Garamond on A4. Moves are bold, the
 author's prose is ragged-right with a first-line indent, and every variation
 closes with a captioned diagram of the position it reaches.
 
+Diagrams are monochrome: white and pale grey squares, solid black pieces, a
+black frame. Pass `--wood` for lichess-coloured squares.
+
 Order inside a chapter: the mainline first, then each sideline as its own
 line, deepest first.
 

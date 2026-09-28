@@ -5,7 +5,7 @@
 # ///
 """Export a PGN study as a typeset two-column PDF book.
 
-    uv run pgn2book.py study.pgn book.pdf
+    uv run pgn2book.py study.pgn book.pdf [--wood]
 
 Every variation is printed as its own line of bold moves with the comment
 prose below it, closed by a diagram of the final position.  Lichess [%cal]
@@ -19,7 +19,7 @@ from xml.sax.saxutils import escape
 import chess
 import chess.pgn
 from reportlab import rl_config
-from reportlab.lib.colors import HexColor, black
+from reportlab.lib.colors import HexColor, black, white
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
@@ -43,7 +43,9 @@ FIGURE_SPACE, VARIATION_GAP = 12.0, 18.32     # a diagram breathes; a variation 
 
 # ------------------------------------------------------------------ figures
 SQUARE, COORD = 26.0, 8.0
-LIGHT, DARK = HexColor("#f0d9b5"), HexColor("#b58863")
+MONO = (white, HexColor("#dcdcdc"))                 # the book default: no colour
+WOOD = (HexColor("#f0d9b5"), HexColor("#b58863"))   # lichess colours, opt in with --wood
+LIGHT, DARK = MONO
 INK = HexColor("#59554e")
 GLYPH = {"p": 0x265F, "n": 0x265E, "b": 0x265D, "r": 0x265C, "q": 0x265B, "k": 0x265A}
 
@@ -232,7 +234,9 @@ def build(sources, out):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        sys.exit("usage: uv run pgn2book.py STUDY.pgn BOOK.pdf")
+    if len(sys.argv) not in (3, 4) or (len(sys.argv) == 4 and sys.argv[3] != "--wood"):
+        sys.exit("usage: uv run pgn2book.py STUDY.pgn BOOK.pdf [--wood]")
+    if len(sys.argv) == 4:
+        LIGHT, DARK = WOOD
     build(games(sys.argv[1]), sys.argv[2])
     print(f"wrote {sys.argv[2]}")

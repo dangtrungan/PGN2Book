@@ -4,6 +4,12 @@
 # dependencies = ["chess>=1.11", "reportlab>=4.2"]
 # ///
 """Self-check for pgn2book. Run: uv run test_pgn2book.py"""
+import io
+import re
+
+import chess
+from reportlab.pdfgen.canvas import Canvas
+
 import pgn2book as book
 
 EXAMPLE = "example.pgn"
@@ -47,6 +53,22 @@ def test_study():
     assert story[-1].spaceBefore == book.FIGURE_SPACE, "a diagram detaches from the text above"
 
 
+def test_palette():
+    """A diagram is filled with the module palette, so --wood really swaps it."""
+    book.register_fonts()
+    buf, diagram = io.BytesIO(), book.Board(chess.Board(), "after 1. e4")
+    diagram.canv = Canvas(buf, pagesize=(book.COLUMN, 400), pageCompression=0)
+    diagram.wrap(book.COLUMN, 400)
+    diagram.draw()
+    diagram.canv.save()
+    tones = {tuple(map(float, m.split())) for m in
+             re.findall(rb"([\d.]+ [\d.]+ [\d.]+) rg", buf.getvalue())}
+    for tone in (book.LIGHT, book.DARK):          # reportlab rounds the stream to 6 places
+        want = (tone.red, tone.green, tone.blue)
+        assert any(all(abs(a - b) < 1e-4 for a, b in zip(want, got)) for got in tones), tone
+
+
 if __name__ == "__main__":
     test_study()
+    test_palette()
     print("ok")
